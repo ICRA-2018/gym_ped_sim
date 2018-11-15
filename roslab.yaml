@@ -1,0 +1,11 @@
+name: gym-ped-sim
+
+distro: kinetic
+
+build: catkin_build
+
+runtime: nvidia
+
+packages:
+  - ros-kinetic-gazebo-ros-pkgs
+
