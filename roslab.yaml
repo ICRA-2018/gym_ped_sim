@@ -1,11 +1,11 @@
 name: gym-ped-sim
 
-distro: kinetic
+distro: melodic
 
 build: catkin_build
 
 runtime: nvidia
 
 packages:
-  - ros-kinetic-gazebo-ros-pkgs
+  - ros-melodic-gazebo-ros-pkgs
 
