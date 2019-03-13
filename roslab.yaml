@@ -1,11 +1,12 @@
 name: gym-ped-sim
 
-distro: melodic
+base: 
+  ubuntu: 16.04
+  ros: kinetic-desktop-full
+  opengl: runtime
 
 build: catkin_build
 
-runtime: nvidia
-
-packages:
-  - ros-melodic-gazebo-ros-pkgs
+apt:
+  - ros-kinetic-gazebo-ros8-pkgs
 
